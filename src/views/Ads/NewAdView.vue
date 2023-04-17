@@ -65,6 +65,7 @@ export default {
           title: this.title,
           desc: this.description,
           promo: this.promo,
+          src: "https://cdn.vuetifyjs.com/images/cards/cooking.png"
         };
         console.log(ad);
       }
@@ -72,13 +73,3 @@ export default {
   },
 };
 </script>
-  
-  <script>
-  export default {
-    name: 'NewAdView',
-    date() {
-      return {
-      }
-    }
-  }
-  </script>
