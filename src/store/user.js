@@ -78,6 +78,9 @@ export default {
     getters: {
         user(state) {
             return state.user
+        },
+        isUserLoggedln(state) {
+            return state.user !== null
         }
     }
 }
