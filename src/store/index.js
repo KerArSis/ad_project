@@ -4,7 +4,6 @@ import user from './user'
 import shared from './shared'
 const store = createStore({
     modules:{
-        
         ads, user, shared
     }
 })
